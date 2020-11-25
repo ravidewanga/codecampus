@@ -1,0 +1,72 @@
+
+.banner{
+    padding-bottom: 10px;
+}
+
+h1{
+    text-align: center;
+    color: teal;
+    font-size: 30px;
+}
+
+h2{
+    color: rgb(0, 172, 172);
+    text-align: center;
+    font-size: 15px;
+    margin-top: -30px;
+    margin-left: 100px;
+}
+
+#zen-intro{
+    border: green;
+    background-color:rgb(206, 206, 206);
+    margin: 20px;
+    box-shadow: 5px 10px 8px #888888;
+    padding-bottom: 15px;
+}
+
+
+#zen-supporting{
+    width: 1000px;
+    border: green;
+    background-color: rgb(206, 206, 206);
+    margin: 20px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.sidebar{
+    background-color: rgb(206, 206, 206);
+    width: 300;
+    height: 821px;
+    margin-left: 1039px;
+    margin-top: -1130px;
+    margin-right: 17px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+p{
+    margin: 10px;
+}
+
+h3{
+    text-decoration: underline;
+    margin-left: 10px;
+}
+
+footer{
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+    background-color:rgb(48, 48, 48);
+    height: 250px;
+}
+
+footer a{
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.summary > p {
+    text-align: center;
+}
