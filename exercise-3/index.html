@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+<style>
+*{
+    padding: 0px;
+    margin: 0px;
+}
+    .nav{
+        background-color: blue;
+    }
+    h1{
+        padding: 10px;
+        text-align: center;
+        color: white;
+    }
+</style>
+</head>
+<body>
+    <nav class="nav">
+        <h1>Simple Interest</h1>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="form-group">
+                <label for="principal">Principal:</label>
+                <input placeholder="Enter Principal" class="form-control" type="number" id="principal" value="">
+
+                <div class="form-group">
+                    <label for="rate">Rate:</label>
+                    <input placeholder="Enter Rate" class="form-control" type="number" id="rate" value="">
+                </div>
+                <div class="form-group">
+                    <label for="number">Number:</label>
+                    <input placeholder="Time/Year" class="form-control" type="number" id="time">
+                </div>
+                <button class="btn btn-success" id="cal">Calculate</button>
+
+                <div class="form-group">
+                    <div id="showSimpleInterest"></div>
+                </div>
+            </div>
+        </div>
+</body>
+<script src="script.js"></script>
+</html>
