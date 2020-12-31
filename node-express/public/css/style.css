@@ -1,0 +1,12 @@
+h1{
+    color: red;
+}
+.weather_heading{
+    font-size: 18px;
+}
+.weather_report_div{
+    height: 300px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 8px #888888;
+}
